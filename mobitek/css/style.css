@@ -1,0 +1,308 @@
+﻿*{
+    box-sizing: content-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+nav{
+    font-size: 14px;
+    text-transform: uppercase;
+    -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 5px 0px rgba(0,0,0,0.75);
+}
+
+.navbar-brand{
+    margin: 0 0 0 50px;
+}
+
+.active a{
+    color: #c21d1f !important;
+}
+
+.bg-white{
+    background-color: white !important;
+}
+
+.navbar-nav{
+    padding: 30px !important;
+}
+
+.teklif-btn{
+    background-color: #205b73;
+    border-radius: 21px;
+    padding: 3px 5px;
+    transition: background-color .5s;
+}
+
+
+.navbar-nav li{
+    margin: 0 6px;
+}
+
+.navbar-nav .menu{
+    border-left: 2px solid transparent;
+}
+
+.navbar-nav .menu:hover{
+    color: black !important;
+    border-left: 2px solid #0c2461;
+}
+
+.teklif-btn:hover{
+    background-color: #c21d1f;
+}
+
+.teklif-btn a{
+    color: white !important;
+    font-size: 12px !important;
+}
+
+.col-md-3{
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.col-md-3 img{
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 200px;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.ref-btn,
+.seminer-btn{
+    text-transform: uppercase;
+    background-color: #c02026;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 32px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+
+.ref-btn:hover{
+    color: #ffff;
+}
+
+.seminer{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url(../images/seminer.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+    transform: translate(0px, 64.0125px);
+    background-attachment: fixed;
+    margin: 50px 0;
+}
+
+.seminer h3{
+    color: white;
+    text-shadow: 0px 1px 14px rgba(0,0,0,1.0);
+    padding: 5px 0;
+}
+
+.seminer h3{
+    font-size: 48px;
+    font-size: 48px;
+}
+
+.seminer .sektor-nabiz{
+    font-weight: bold;
+}
+
+.seminer-btn{
+    padding: 15px 20px 15px 20px;
+    padding-top: 15px;
+}
+
+.seminer .yazilar{
+    padding-top: 100px;
+}
+
+.seminer-btn:hover{
+    color: white;
+}
+
+.is-ortagi img{
+    width: 200px;
+    height: 200px;
+    float: right;
+}
+
+.is-ortagi p{
+    float: left;
+    text-align: center;
+    color: #6e6e6e;
+    line-height: 1.7;
+    padding: 0 0 0 10px;
+}
+
+.loft{
+    width: 80px !important;
+    height: 80px !important;
+    margin-left: 120px;
+}
+
+.star{
+    color: #ffa127;
+}
+
+.hizmet-col img{
+    width: 100px;
+    height: 100px;
+}
+
+.hizmet-col p{
+    margin-top: 10px;
+}
+
+.is-ortaklarimiz img{
+    width: 200px;
+    height: 200px;
+}
+
+.iletisim .icon{
+    color: #a5724a;
+    font-size: 25px;
+    width: 25px;
+    padding-top: 5px;
+}
+
+.iletisim span{
+    color: #2d3436;
+    font-size: 16px;
+}
+
+.iletisim .left-icon{
+    color: #c02026;
+    font-size: 25px;
+    width: 25px;
+}
+
+.iletisim .left-span{
+    font-size: 20px;
+    color: #c02026;
+    font-weight: 400;
+    letter-spacing: 0px;
+    text-transform: none;
+
+}
+
+
+.iletisim label{
+    color: #6e6e6e;
+    font-weight: bold;
+}
+
+.iletisim label::after{
+    content: " * ";
+    display: inline;
+    color: red;
+}
+
+
+input[type=text],
+input[type=email]{
+    height: 20px !important;
+}
+
+.iletisim h4{
+    color: #383838;
+
+}
+
+.iletisim p{
+    font-size: 14px;
+    color: #6e6e6e;
+    line-height: 1.7;
+}
+
+.zirve{
+    background-image: url("../images/slider1.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0px 30px;
+}
+
+.zirve p{
+    font-size: 36px;
+    color: white;
+    display: inline-block;
+    padding: 20px 0;
+    letter-spacing: 1.7px !important;
+}
+
+.zirve .zirve-btn{
+    float: right;
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    padding: 15px 33px;
+    color: white;
+    background-color: #205b73;
+    -webkit-border-radius: 36px;
+}
+
+.ust-footer{
+    background-color: #202020;
+    padding: 70px 0 50px;
+}
+
+.ust-footer a{
+    color: white;
+    display: block;
+    font-size: 14px;
+    margin: 0 0 20px 0;
+}
+
+.ust-footer .adres a::before{
+    content: ">";
+    display: inline;
+    padding: 0 15px 0 0;
+    color: white;
+}
+
+.ust-footer h6{
+    color:white;
+}
+
+.ust-footer p{
+    font-size: 14px;
+    color: #ababab;
+}
+
+.ust-footer-ico{
+    font-size: 16px;
+    color: #c02026;
+    margin-right: 10px;
+}
+
+.ust-footer-icons a{
+    display: inline;
+}
+
+.footer{
+    background-color: #181818;
+    padding: 30px 40px
+}
+
+.footer-ico{
+    color: white;
+    font-size: 24px;
+    padding-right: 20px;
+}
+
+.footer p{
+    color: #838383;
+    font-size: 16px;
+}
